@@ -1,0 +1,31 @@
+.wrapper {
+	@apply h-screen m-auto relative;
+
+	.position {
+		@apply absolute top-1/4 left-1/4;
+	}
+
+	h1 {
+		@apply text-6xl mb-4 text-center;
+	}
+
+	h2 {
+		@apply text-xl mb-4 text-center;
+	}
+
+	form {
+		@apply flex flex-col text-black mb-4;
+	}
+
+	label {
+		@apply text-white text-xs mb-2;
+	}
+
+	input {
+		@apply border-2 border-gray-300 rounded-lg mb-6 p-3;
+	}
+
+	button {
+		@apply bg-gray-700 text-white px-4 rounded-lg py-4 mt-6;
+	}
+}
